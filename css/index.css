@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&family=Roboto:wght@400;700&display=swap');
+
+@media (max-width: 600px){
+
+    form {
+
+        max-width: 60vw;
+    }
+}
+
+@media (min-width: 600px){
+
+    form {
+
+        max-width: 30vw;
+    }
+}
+
+form {
+
+    border: 1.5px #3e444e solid;
+    padding: 25px 10px;
+    border-radius: 5px;
+}
+
+body {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #3e444e;
+}
+
+form, form header, form main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form header, form main, form footer {
+
+    width: 100%;
+}
+
+form header img {
+
+    max-width: 80%;
+    text-align: center;
+}
+
+form label {
+
+    width: 100%;
+    text-align: left;
+    margin-top: 15px;
+}
+
+form input {
+
+    width: 98%;
+    border: none;
+    border-bottom: 2px #3e444e solid;
+    outline: none;
+    overflow: hidden;
+    padding: 5px 5px 2px 0;
+    font-size: 1rem;
+}
+
+form button {
+
+    background-color: #e30613;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 100%;
+    font-size: 1rem;
+    color: #ffffff;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+form button:hover {
+
+    opacity: 60%;
+}
+
+footer p {
+
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 15px;
+}
+
+footer a {
+
+    color: #e30613;
+    text-decoration: underline;
+    font-weight: 400;
+}
