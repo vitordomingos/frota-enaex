@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <link rel="shortcut icon" href="../assets/icons/chaves-favicon.png" type="image/x-icon">
+    <script src="../js/first-form.js" defer></script>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/first-form.css">
+    <title>PCM - Informe Inicial de Pneus</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <header>
+            <h1>Informe Inicial</h1>
+            <p>EBR2Z0O21 - Frota e Equipamentos</p>
+        </header>
+        <main>
+            <label class="form-item" for="borracharia">Existem pneus na borracharia?</label>
+            <input class="form-item texto" type="text" name="borracharia" id="borracharia" placeholder="Selecione um valor..." autocomplete="off" required>
+            <div class="form-opcoes hidden"></div>
+            <label class="form-item hidden" for="borracharia-qtd">Quantos estão na borracharia?</label>
+            <input class="form-item hidden" type="number" name="borracharia-qtd" id="borracharia-qtd" placeholder="Selecione um valor..." autocomplete="off">
+            <label class="form-item" for="estoque">Existem pneus em estoque?</label>
+            <input class="form-item texto" type="text" name="estoque" id="estoque" placeholder="Selecione um valor..." autocomplete="off" required>
+            <div class="form-opcoes hidden"></div>
+            <label class="form-item hidden" for="estoque-novos">Quantos do estoque são novos?</label>
+            <input class="form-item hidden" type="number" name="estoque-novos" id="estoque-novos" placeholder="Digite um valor..." autocomplete="off">
+            <label class="form-item hidden" for="estoque-usados">Quantos do estoque são usados?</label>
+            <input class="form-item hidden" type="number" name="estoque-usados" id="estoque-usados" placeholder="Digite um valor..." autocomplete="off">
+            <label class="form-item" for="descarte">Algum pneu será descartado?</label>
+            <input class="form-item texto" type="text" name="descarte" id="descarte" placeholder="Selecione um valor..." autocomplete="off" required>
+            <div class="form-opcoes hidden"></div>
+            <label class="form-item hidden" for="descarte-qtd">Quantos serão descartados?</label>
+            <input class="form-item hidden" type="number" name="descarte-qtd" id="descarte-qtd" placeholder="Digite um valor..." autocomplete="off">
+            <button class="form-item verificar" type="button">Verificar Respostas</button>
+            <button class="form-item enviar" type="submit" disabled>Enviar Respostas</button>
+        </main>
+    </form>
+</body>
+</html>
